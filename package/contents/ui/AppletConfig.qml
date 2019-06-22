@@ -10,11 +10,11 @@ Item {
 
 	//--- Sizes
 	readonly property int panelIconSize: 24 * units.devicePixelRatio
-	readonly property int flatButtonSize: 60 * units.devicePixelRatio
+	readonly property int flatButtonSize: 40 * units.devicePixelRatio
 	readonly property int flatButtonIconSize: 30 * units.devicePixelRatio
 	readonly property int sidebarWidth: flatButtonSize
 	readonly property int sidebarMinOpenWidth: 200 * units.devicePixelRatio
-	readonly property int sidebarRightMargin: 4 * units.devicePixelRatio
+	readonly property int sidebarRightMargin: 15 * units.devicePixelRatio
 	readonly property int appListWidth: plasmoid.configuration.appListWidth * units.devicePixelRatio
 
 	property bool showSearch: false

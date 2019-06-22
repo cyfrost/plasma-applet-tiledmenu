@@ -52,24 +52,24 @@ Item {
 			// 	zoomOnPush: expanded
 			// }
 
-			SidebarViewButton {
-				appletIconName: "view-tilesonly"
-				text: i18n("Tiles Only")
-				onClicked: searchView.showTilesOnly()
-				checked: searchView.showingOnlyTiles
-			}
-			SidebarViewButton {
-				appletIconName: "view-list-alphabetically"
-				text: i18n("Alphabetical")
-				onClicked: appsView.showAppsAlphabetically()
-				checked: searchView.showingAppsAlphabetically
-			}
-			SidebarViewButton {
-				appletIconName: 'view-list-categorically'
-				text: i18n("Categories")
-				onClicked:  appsView.showAppsCategorically()
-				checked: searchView.showingAppsCategorically
-			}
+			// SidebarViewButton {
+			// 	appletIconName: "view-tilesonly"
+			// 	text: i18n("Tiles Only")
+			// 	onClicked: searchView.showTilesOnly()
+			// 	checked: searchView.showingOnlyTiles
+			// }
+			// SidebarViewButton {
+			// 	appletIconName: "view-list-alphabetically"
+			// 	text: i18n("Alphabetical")
+			// 	onClicked: appsView.showAppsAlphabetically()
+			// 	checked: searchView.showingAppsAlphabetically
+			// }
+			// SidebarViewButton {
+			// 	appletIconName: 'view-list-categorically'
+			// 	text: i18n("Categories")
+			// 	onClicked:  appsView.showAppsCategorically()
+			// 	checked: searchView.showingAppsCategorically
+			// }
 			// SidebarItem {
 			// 	iconName: 'system-search-symbolic'
 			// 	text: i18n("Search")
@@ -81,7 +81,7 @@ Item {
 		}
 		ColumnLayout {
 			anchors.bottom: parent.bottom
-			spacing: 0
+			spacing: 10
 
 			SidebarItem {
 				iconName: kuser.faceIconUrl ? kuser.faceIconUrl : 'user-identity'
